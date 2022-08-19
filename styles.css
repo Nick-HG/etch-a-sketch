@@ -1,0 +1,10 @@
+body {
+    text-align: center;
+}
+
+.cell {
+    border: 1px solid rgb(206, 198, 198);
+    min-width: 20px;
+    min-height: 20px;
+    display: inline-block;
+}
