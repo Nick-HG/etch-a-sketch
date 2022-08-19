@@ -2,9 +2,18 @@ body {
     text-align: center;
 }
 
-.cell {
-    border: 1px solid rgb(206, 198, 198);
-    min-width: 20px;
-    min-height: 20px;
-    display: inline-block;
+.board{
+    margin: auto;
+    border: 1px solid rgb(192, 184, 184);
+}
+
+button {
+    margin: 5px;
+}
+
+.board {
+    width: 500px;
+    height: 500px;
+    display: grid;
+    
 }
