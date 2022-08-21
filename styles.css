@@ -1,19 +1,69 @@
 body {
     text-align: center;
-}
-
-.board{
-    margin: auto;
-    border: 1px solid rgb(192, 184, 184);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(224, 220, 220);
 }
 
 button {
     margin: 5px;
+    border: 1.5px solid black;
+    border-radius: 5%;
+    color: white;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    filter: brightness(130%);
+    transform: scale(1.1);
+}
+
+input {
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+
+/* IDs */
+#black-button {
+    background-color: black;
+}
+
+#eraser-button {
+    background-color: white;
+    color: black;
+}
+
+#random-button {
+    background: linear-gradient(-60deg, rgb(233, 81, 81) 50%, rgb(74, 74, 226) 25%);
+}
+
+#reset-button {
+    background-color: grey;
+}
+
+#size-button {
+    background-color: darkcyan;
+}
+
+
+/* Classes */
+.input-div {
+    margin-top: 20px;
+}
+
+.buttons {
+    margin-top: 30px;
 }
 
 .board {
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
     display: grid;
-    
+    margin: auto;
+    border: 2px solid rgb(192, 184, 184);
 }
